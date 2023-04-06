@@ -1,0 +1,27 @@
+.homepage {
+  height: 99vh;
+  width: 99vw;
+}
+
+.homepage img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1080px) {
+  .homepage {
+    width: 99vw;
+    background-size: 100% 100%;
+  }
+  .homepage img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768) {
+  .homepage {
+    position: absolute;
+    width: 99vw;
+    background-size: 100% 100%;
+  }
+}
